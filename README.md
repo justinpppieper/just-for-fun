@@ -1,5 +1,5 @@
 # just-for-fun
-This is a repotory to collect small and fun execises.
+This is a repository to collect small and fun execises.
 
 ## 1. Glass-Panel
 A game panel build with only html and css, with gradient color background and elements. Looks like glass!
