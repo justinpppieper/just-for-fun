@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    color: #426696;
+    opacity: 0.8;
+    font-weight: 500;
+}
+
+.img {
+    object-fit: cover;
+    width: 100%;
+
+}
+
+main {
+    min-height: 100vh;
+    background: linear-gradient(to right top, #65dfc9, #6cdbed);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.glass {
+    width: 60%;
+    min-width: 80vh;
+    min-height: 80vh;
+    background-color: white;
+    background: linear-gradient(
+        to right bottom,
+        rgb(255, 255, 255, 0.8),
+        rgb(255, 255, 255, 0.3)
+);
+    border-radius: 2rem;
+    backdrop-filter: blur(2rem);
+    z-index: 1;
+    display: flex;
+}
+
+.circle1, .circle2 {
+    width: 20rem;
+    height: 20rem;
+    background: linear-gradient(
+        to right bottom,
+        rgb(255, 255, 255, 0.8),
+        rgb(255, 255, 255, 0.3)
+);
+    border-radius: 50%;
+    position: absolute;
+}
+.circle1 {
+    left: 10%;
+    bottom: 5vh;
+}
+.circle2 {
+    right: 10%;
+    top: 5vh
+}
+
+.dashboard {
+    background: linear-gradient(
+        to right bottom,
+        rgb(255, 255, 255, 0.6),
+        rgb(255, 255, 255, 0.1)
+);
+    border-radius: 2rem 0 0 2em;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.user{
+    height: 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.user h4 {
+    font-weight: 700;
+}
+.user h5 {
+    font-weight: 400;
+}
+.link {
+    display: flex;
+    align-items: center;
+    margin: 2rem 0rem;
+}
+.link h3 {
+    margin-left: 2rem;
+}
+.pro {
+    width: 70%;
+    background: linear-gradient(to right top, #65dfc9, #6cdbed);
+    padding: 1rem;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+.pro h3 {
+    color: white;
+    margin-right: 1rem;
+    font-weight: 600;
+}
+
+
+.games {
+    flex: 2;
+    margin: 3rem;
+}
+.games h1 {
+    font-weight: 800;
+}
+.games input {
+    width: 50%;
+    margin-top: 1rem;
+    padding: 0.3rem;
+    border: none;
+    border-radius: 1rem;
+    background: linear-gradient(to right bottom, rgba(255,255,255, 0.8), rgb(255,255,255, 0.3));
+}
+input:focus {
+    outline: none;
+}
+
+.cards {
+    margin: 2rem 0rem;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.card {
+    height: 5rem;
+    margin: 1rem 0;
+    padding: 1.5rem 0;
+    background-color: white;
+    opacity: 0.8;
+    box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.212);
+    border-radius: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+.card-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.progress {
+    width: 100%;
+    height: 20px;
+    background: linear-gradient(to right top, #65dfc9, #6cdbed);
+    border-radius: 1rem;
+    position: relative;
+    overflow: hidden;
+}
+.progress::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: rgb(236,236,236);
+    border-radius: 0 1rem 1rem 0;
+    position: absolute;
+    margin-left: 60%
+}
+.percentage h3 {
+    color:#65dfc9;
+    font-weight: 700;
+}
+
+
+
