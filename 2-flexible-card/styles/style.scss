@@ -4,23 +4,23 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Courgette', cursive;
+    font-family: 'Raleway', sans-serif;
 }
 
 .container {
     margin: auto;
-    width: 90vw;
+    // border: 1px solid red;
     min-height: 100vh;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    perspective: 1000;
 
-    .container-card {
-        min-width: 24rem;
-        margin: 0 2rem;
+    .card-container {
+        width: 25%;
         display: flex;
         justify-content: center;
-        align-items: center;
+        align-items: stretch;
 
         .card {
             width: 20rem;
@@ -35,42 +35,43 @@
                 align-items: center;
 
                 img {
-                    width: 13rem;
+                    height: 13rem;
                     z-index: 1;
                     transition: all 0.75s ease-out;
                 }
 
                 .circle {
-                    width: 10rem;
-                    height: 10rem;
+                    width: 12rem;
+                    height: 12rem;
                     border-radius: 50%;
-                    background: linear-gradient(to right, #E1CC7A, #108252);
+                    background: linear-gradient(to right top, $circle-color-1, $circle-color-2);
                     position: absolute;
                     z-index: auto;
                 }
             }
 
             .intro {
-
                 margin: 2rem 0;
+                height: 18rem;
+
 
                 .title {
                     font-size: 1.4rem;
-                    transition: all 0.75s ease-out;
+                    // transition: all 0.75s ease-out;
                 }
 
                 .content {
                     font-size: 1rem;
                     color: #585858;
                     margin: 1rem 0;
-                    transition: all 0.75s ease-out;
+                    // transition: all 0.75s ease-out;
                 }
             }
 
             .more {
                 font-size: 1.2rem;
                 font-weight: 700;
-                background-color: $more-button-color;
+                background: linear-gradient(to right, $button-color-1, $button-color-2);
                 color: white;
                 width: 100%;
                 padding: 0.5rem 0rem;
@@ -78,7 +79,7 @@
                 border-radius: 3rem;
                 cursor: pointer;
                 outline: none;
-                transition: all 0.75s ease-out;
+                // transition: all 0.75s ease-out;
             }
         }
     }

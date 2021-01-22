@@ -8,10 +8,23 @@ A game panel build with only html and css, with gradient color background and el
 <img src="1-glass-panel/screenshot.png" alt="" width="80%" />
 </p>
 
-## 2. Flexible Card
-A group of character cards with javascript animation. Still, took Zelda as an example, which is my favorite game recently...also, a time-consuming monster.
+### Hightlights
+* a good practice to css *display box*
+* *linear-gradient()* to realize fade color anywhere
 
+## 2. Flexible Card
+A group of character cards with javascript animation. Still, took Zelda as an example, which is my favorite game recent days...also, a time-consuming monster.
 
 <p>
 <img src="2-flexible-card/screenshot.png" alt="" width="80%" />
 </p>
+
+### Highlights
+* **Live Sass Compiler** is a good VScode extension to compile scss to css
+* Colors from **Adobe Color**
+* Font from **Google Font** 
+
+### Fix
+* *transitionZ* does not work
+* x-axis rotate to weird direction so I just ignore it at this moment
+
