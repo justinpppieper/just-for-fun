@@ -33,9 +33,10 @@ A group of character cards with javascript animation. Still, took Zelda as an ex
 
 ## 3. Splash Page
 *Splash pages are a different story, and can best be understood as an intro page to your website. When visitors arrive at your site, instead of going straight to a homepage they will first be greeted by your splash page.* -- WiX Blog
+<br>
 [What Is a Splash Page and How to Create One](https://www.wix.com/blog/2019/05/what-is-splash-page)
 
-![demo](3-splash-page/splash-page-demo.gif)
+![demo](3-splash-page-animation/public/demo/splash-page-demo.gif)
 
 ### Highlight
 * **[GSAP](https://greensock.com/gsap/)** is a light-weight and easy tool to realize Javascript animation.
